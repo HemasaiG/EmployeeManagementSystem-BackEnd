@@ -25,8 +25,8 @@ public class Employee {
 	
 	public Employee() {}
 	
-	public Employee(Integer id,String firstName,String lastName,Integer age,String emailId) {
-		this.id=id;
+	public Employee(String firstName,String lastName,Integer age,String emailId) {
+		
 		this.firstName=firstName;
 		this.lastName=lastName;
 		this.age=age;
